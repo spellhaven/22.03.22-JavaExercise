@@ -26,9 +26,9 @@ public class MethodArrayReturn_p143 {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		int ret[] = new int[3];		// 왜 L14에 static을 붙여야 에러가 없는지는 추후에 알아본다.
-		ret = outputArray(1,2,3);	// 그냥 지금은... 배열로 나온 리턴값(outputArray의 리턴값)은 배열(ret)로 받아야 하는 것만 r고잇으면 되. ㅋ	
-		
+//		int ret[] = new int[3];		// 왜 L14에 static을 붙여야 에러가 없는지는 추후에 알아본다.
+//		ret = outputArray(1,2,3);	// 그냥 지금은... 배열로 나온 리턴값(outputArray의 리턴값)은 배열(ret)로 받아야 하는 것만 r고잇으면 되. ㅋ	
+
 
 		
 	}
