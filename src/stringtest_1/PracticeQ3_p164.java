@@ -21,7 +21,7 @@ public class PracticeQ3_p164 {
 				System.out.print("*");
 			}
 			
-			System.out.print("\n");		// 자바에서 \n이 프린트가 잘 되나 ㅋ?
+			System.out.print("\n");		// 자바에서 \n이 프린트가 잘 되나 ㅋ? 잘 되네 ㅋ
 		}
 		
 		thcan.close();
