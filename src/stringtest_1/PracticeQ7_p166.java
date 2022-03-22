@@ -9,10 +9,10 @@ public class PracticeQ7_p166 {
 
 		int intArray[] = new int[10];
 			
-		int arrlnth = intArray.length;
-//		System.out.println(arrlnth);		// 괜히 길이 10으로 하드코딩 안 하고 .length로 해 봤다. 여튼 10 잘 나오죠?
+		int arrlnth = intArray.length;	// 괜히 길이 10으로 하드코딩 안 하고 .length로 해 봤다. 여튼 10 잘 나오죠?
+//		System.out.println(arrlnth);		
 		
-		int sum = 0;	// 랜덤정수들의 합과 평균.
+		int sum = 0;	// 랜덤정수들의 합과 평균을 sum과 avg로.
 		double avg = 0; // avg는 double이어야 함. 잊지마 ㅋ
 		
 		
@@ -20,8 +20,8 @@ public class PracticeQ7_p166 {
 		
 		// 랜덤 정수 생성해서 intArray[]에 넣어 주는 놈
 		for(int i = 0; i < arrlnth; i++)  {
-			intArray[i] = (int)(Math.random()*10 + 1);
-			System.out.print(" " + intArray[i]);
+			intArray[i] = (int)(Math.random()*10 + 1);	// 배열에 랜덤정수 넣음
+			System.out.print(" " + intArray[i]);	// 걔들을 프린트함
 		}
 		
 		

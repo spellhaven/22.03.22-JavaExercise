@@ -15,13 +15,12 @@ public class PracticeQ3_p164 {
 		System.out.println("정수를 입력하시오>>");		
 		int input = thcan.nextInt();
 		
-		for(int i = 0; i < input ;i++) {
-			
-			for (int j = 0; j < input - i ;j++) {
+		for(int i = 0; i < input ;i++) {	// 교수님은 for (int i = input; i > 0; i--)
+			for (int j = 0; j < input - i ;j++) {	// 교수님은 for(int j = 0; j < i; j++)
 				System.out.print("*");
 			}
 			
-			System.out.print("\n");		// 자바에서 \n이 프린트가 잘 되나 ㅋ? 잘 되네 ㅋ
+			System.out.print("\n");		// 자바에서도 \n 프린트 잘 되네. System.out.println();으로 대체해도 ㄱㄴ.
 		}
 		
 		thcan.close();
@@ -29,3 +28,5 @@ public class PracticeQ3_p164 {
 	}
 
 }
+
+

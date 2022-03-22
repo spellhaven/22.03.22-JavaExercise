@@ -14,7 +14,7 @@ public class PracticeQ5_p165 {
 		int intArray[] = new int[10]; 
 		
 		
-		for(int i = 0; i < 10; i++) {	// 입력받은 정수를 배열에 저장. 크킄. 조건문을 i<10 하지 말고 i<배열길이로 하는 방법이 있었으나. 아귀찮아 ㅋ
+		for(int i = 0; i < intArray.length; i++) {	// 입력받은 정수를 배열에 저장. 크킄.
 			intArray[i] = thcan.nextInt();	
 			}
 		
